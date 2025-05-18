@@ -1,0 +1,9 @@
+streamlit~=1.45.0
+folium~=0.19.5
+numpy~=1.26.1
+streamlit_folium~=0.25.0
+shapely~=2.1.0
+geopandas~=1.0.1
+branca~=0.8.1
+ipywidgets~=8.1.7
+ipython~=9.2.0
