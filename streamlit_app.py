@@ -164,7 +164,7 @@ with tab1:
             st.session_state['gps_active'] = False
     # 自动刷新（每2秒）
     if st.session_state['gps_active']:
-        time.sleep(2)
+        time.sleep(8)
         st.session_state['gps_key'] += 1
         if 'gps_pos' in st.session_state:
             del st.session_state['gps_pos']
